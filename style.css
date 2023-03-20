@@ -1,0 +1,156 @@
+body{
+    background-color: darkgoldenrod;
+    margin: 0;
+    height: auto;
+    
+}
+#radnaPovrsina{
+    width: 630px;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    background-color: honeydew;
+}
+#header {
+    width: 100%;
+    margin: 0;
+}
+#natpis {
+    color: darkgoldenrod;
+    font-family: cursive;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#meni ul{
+    float: left;
+    width: 100%;
+    height: 35px;
+    background-color: darkgoldenrod;
+    color: honeydew;
+    margin-top: -5px;
+    text-decoration: none;
+}
+#meni li{
+    float: left;
+    list-style-type: none;
+    width: 157px;
+    padding-top: 5px;
+}
+#meni a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+#meni a:hover{
+    color: blue;
+}
+#meni a:active{
+    color: red;
+}
+#pcl, #vrste {
+    float: left;
+}
+#pcl p{
+    width: 350px;
+    margin-left: 20px;
+    float: left;
+    text-align: justify;
+}
+#pcl img{
+    margin-left: 10px;
+    float: left;
+}
+#pcl h2, #lekSvojstva h2, #zlatar h2, #hobi h2, #vrste h2, #vrsteSuncokret h2, #vrsteBagrem h2, #vrsteLivadski h2, #vrsteSumski h2{
+    margin-left: 30px;
+}
+#lekSvojstva p, #zlatar p{
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 20px;
+}
+#zlatar {
+    padding-bottom: 10px;
+}
+#footer {
+    width: 100%;
+    height: 30px;
+    background-color: darkgoldenrod;
+    color: black;
+    text-align: center;
+    padding-top: 7px;
+}
+#hobi {
+    float: left;
+    background-color: honeydew;
+    margin-top: -15px;
+    width: 100%;
+}
+#hobi img {
+    margin-left: 20px;
+    float: left;
+    z-index: 0;
+}
+#hobi p{
+    width: 330px;
+    margin-left: 10px;
+    float: right;   
+    text-align: justify;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+#vrste {
+    width: 100%;
+}
+#vrste p, #vrsteSuncokret p, #vrsteBagrem p{
+    width: 260px;
+    margin-left: 20px;
+    text-align: justify;
+    float: left;
+    margin-top: -10px;
+}
+#vrste img, #vrsteSuncokret img{
+    float: right;
+    margin-right: 20px;
+}
+#vrsteLivadski img{
+    margin-left: 95px;
+}
+#vrsteLivadski p{
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    float: left;
+    margin-top: 10px;
+    background-color: honeydew;
+}
+#vrsteLivadski {
+    margin-top: 30px;
+}
+#vrsteSumski {
+    width: auto;
+    background-color: honeydew;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+span, label, textarea, input {
+    margin-left: 20px;
+}
+
+#tabela tr:nth-child(even){background-color: #f2f2f2;}
+#tabela tr:hover {background-color: #ddd;}
+#tabela {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#tabela td{
+    margin-left: 20px;
+}
+#poruciti{
+    margin-bottom: 20px;
+}
